@@ -1,0 +1,76 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background: rgba(0, 0, 0, 0);
+	font-family: 'Didact Gothic', sans-serif;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+  
+.borderwrap {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display:inline-block;
+    border: 25px solid transparent;
+    border-image-source: url('Border New.png');
+    border-image-slice: 25;
+    flex: 0 0 auto;
+    width: fit-content;    
+}
+
+
+.borderwrap:before, .borderwrap:after {
+    content: "";
+	position: absolute;
+	top: -25px;
+	height: 32px;
+	width: 32px;
+	background-image: url('Sprite Print colored.png');
+	background-size: 32px 32px;
+	background-position: top center, bottom center;
+	background-repeat: no-repeat;
+}
+
+.border:before, .border:after {
+    content: "";
+	position: absolute;
+	bottom: -25px;
+	height: 32px;
+	width: 32px;
+	background-image: url('Sprite Print colored.png');
+	background-size: 32px 32px;
+	background-position: top center, bottom center;
+	background-repeat: no-repeat;
+}
+
+.borderwrap:before, .border:before {
+    left: -25px;
+}
+
+.border:after, .borderwrap:after  {
+    right: -25px
+}
+
+.border {
+    height: 100%;
+    width: 100%;
+}
+  
+.darken {
+    background:rgba(0,0,0,.5);
+}
+
+#container {
+    padding: 20px;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+}
+
+p {
+    color: white;
+    white-space: normal;
+    word-break: break-word;
+    display:inline;
+}

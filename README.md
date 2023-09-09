@@ -15,3 +15,7 @@ Change out the size and color to match however you want it to display for that i
 If you want to change the font, switch 'Didact Gothic' in textbox.css under html, body to whichever google font you want. https://fonts.google.com
 Be sure to add any import directives you might need to the html file.
 
+## New Line
+Use \r\n or \n in the URL to break to a second line. You will need to encode this for a URL if whatever software is filling it for you does not.  
+**\r\n**: %5Cr%5Cn  
+**\n**: %5Cn  

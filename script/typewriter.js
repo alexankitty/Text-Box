@@ -29,6 +29,8 @@ function ParamHandler(item, index) {
     document.getElementById("container").appendChild(p);
     if(color) p.style.color = color;
     if(size) p.style.fontSize = size + "px";
-    const txt = item;
+    let txt = item;
+    txt = txt.replace("\\r", "\r")
+    txt = txt.replace("\\n", "\n")
     typeWriter(txt, p);
 }

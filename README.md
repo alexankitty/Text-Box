@@ -15,5 +15,3 @@ Change out the size and color to match however you want it to display for that i
 If you want to change the font, switch 'Didact Gothic' in textbox.css under html, body to whichever google font you want. https://fonts.google.com
 Be sure to add any import directives you might need to the html file.
 
-## To do:
-Support multiline writing (half way implemented)

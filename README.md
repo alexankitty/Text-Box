@@ -1,4 +1,5 @@
 # Text-Box
+![image](https://github.com/alexankitty/Text-Box/assets/45508320/a726659a-7f9d-4177-82ee-854f988f6e34)
 
 ## Downloading
 Clone the repository with `git clone https://github.com/alexankitty/Text-Box` and then move it where ever you want.
